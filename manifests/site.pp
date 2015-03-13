@@ -63,6 +63,7 @@ node default {
     sublime_text::package { 'Emmet':
     source => 'sergeche/emmet-sublime'
   }
+  include sysctl
   include spectacle
   include postgresql
   include mongodb
