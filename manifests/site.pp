@@ -96,7 +96,7 @@ node default {
   include osx::universal_access::ctrl_mod_zoom
   include osx::universal_access::enable_scrollwheel_zoom
 
-  osx::recovery_message { 'If this Mac is found, please send mail to antoinemary@hotmail.fr': }
+  osx::recovery_message { 'If this Mac is found, please send mail to mail@antoinemary.me': }
 
   class { 'osx::global::key_repeat_delay':
     delay => 0
@@ -157,16 +157,6 @@ node default {
     value  => true,
     notify => Exec['killall Dock'];
   }
-
-  # Make bin directory in user home
-  file { "/Users/${::luser}/bin":
-    ensure => directory,
-    group  => 'staff',
-    owner  => $luser
-  }
-
-}
-
 
 
   # fail if FDE is not enabled
