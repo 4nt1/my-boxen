@@ -57,6 +57,12 @@ node default {
   include git
   include hub
   include nginx
+  include iterm2::stable
+  include chrome
+  include sublime_text
+    sublime_text::package { 'Emmet':
+    source => 'sergeche/emmet-sublime'
+  }
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
