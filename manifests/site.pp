@@ -82,7 +82,7 @@ node default {
   include zsh
   include ohmyzsh
   include openssl
-  include viscosoty
+  include viscosity
 
   
   include osx::global::disable_key_press_and_hold
