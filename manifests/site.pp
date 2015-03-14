@@ -81,6 +81,7 @@ node default {
   include utorrent
   include zsh
   include ohmyzsh
+  include openssl
 
   
   include osx::global::disable_key_press_and_hold
