@@ -237,6 +237,7 @@ DEPENDENCIES
   nodejs (= 4.0.0)
   ohmyzsh (= 1.0.0)
   openssl (= 1.0.0)
+  openssl (= 1.0.0)
   osx (= 2.8.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)

@@ -82,6 +82,7 @@ node default {
   include zsh
   include ohmyzsh
   include openssl
+  include viscosoty
 
   
   include osx::global::disable_key_press_and_hold
@@ -101,7 +102,7 @@ node default {
   osx::recovery_message { 'If this Mac is found, please send mail to mail@antoinemary.me': }
 
   class { 'osx::global::key_repeat_delay':
-    delay => 0
+    delay => 1
   }
 
   boxen::osx_defaults { 'Sets the Speed With Which Mouse Movement Moves the Cursor':

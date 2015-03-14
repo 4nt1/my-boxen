@@ -78,7 +78,7 @@ github "arduino",      "1.0.1"
 github "vlc",          "1.1.0"
 github "utorrent",     "1.1.1"
 github "zsh",          "1.0.0"
-github "openssl",          "1.0.0"
+github "openssl",      "1.0.0"
 github "ohmyzsh",      "1.0.0", :repo => "erivello/puppet-ohmyzsh"
 
 
